@@ -2,6 +2,7 @@
 
 포스코 K-뉴딜아카데미 딥러닝 1기 최종 프로젝트입니다. 샷마다 남는 공정·센서 기록(7,535샷 × 32열)만으로 불량 유형 7종(정상, Short_Shot, Blow_Hole, Exfoliation, Stain, Deformation, 기타불량)을 미리 예측합니다. 지표는 macro F1입니다.
 
+- 저장소: https://github.com/Kangmunju/diecasting-defect-prediction
 - 최종 제출안(1안): 랜덤포레스트 + ExtraTrees 확률 평균 + 두 단계(불량 여부 → 불량 종류) 혼합 + 앞뒤 사건 입력 40개 추가. 중간 리더보드(public) 점수 **0.5987**(공개 기준선 0.2517).
 - 현장성을 높인 또 다른 안(2안): 랜덤포레스트 2개 평균, 입력 25개. 중간 리더보드(public) 점수 0.5710.
 
